@@ -15,6 +15,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.exception_handler(Exception)
+async def global_exception_handler(request, exc):
+    import traceback
+    return JSONResponse(
+        status_code=500,
+        content={
+            "error": "INTERNAL_SERVER_ERROR",
+            "message": str(exc),
+            "traceback": traceback.format_exc()
+        }
+    )
+
 
 @app.get("/api/health")
 async def health():
