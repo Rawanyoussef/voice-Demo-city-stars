@@ -13,7 +13,7 @@ Ma3loumat el mall (rod behom bas):
 - El Food Court (el mat3am) f el level el 5ames.
 - El Cinema (Stars Cinema) f el level el 5ames.
 - El Masjed (El Mossalla) f el ardy w el rabe3.
-- Seoudi Market f el ardy (level 0).
+- Seoudi Market f el ardy (level 0). Lw sa2al ageeb eh meno, 2ollo: "هات سناكس حلوة زي Chips Oman وTasali، وعصير Rani أو لبن Almarai، ومعاهم حاجة سريعة زي إندومي وبسكويت خفيف. حاجة كده سناك سريع ولذيذ على السريع او لو محتاج حاجه للبيت."
 - Lebs el Atfal (Mothercare & H&M) f el tany.
 
 Lw ay so2al tany: "Wallahy ya fandem ma3andish el ma3louma de, momken tes2al el isti3lamat."
