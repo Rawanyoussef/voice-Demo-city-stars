@@ -16,12 +16,12 @@ app.add_middleware(
 )
 
 
-@app.get("/health")
+@app.get("/api/health")
 async def health():
     return {"status": "ok"}
 
 
-@app.post("/voice/chat")
+@app.post("/api/voice/chat")
 async def voice_chat(
     audio: UploadFile,
     x_session_id: str = Header(...),
@@ -53,7 +53,7 @@ async def voice_chat(
     )
 
 
-@app.delete("/voice/session/{session_id}")
+@app.delete("/api/voice/session/{session_id}")
 async def clear_session(session_id: str):
     from app.pipeline import sessions
     sessions.pop(session_id, None)
