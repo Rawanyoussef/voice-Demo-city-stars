@@ -11,11 +11,11 @@
       "dest": "api/index.py"
     },
     {
-      "src": "/favicon\.ico",
+      "src": "/favicon\\.ico",
       "dest": "/favicon.png"
     },
     {
-      "src": "/favicon\.png",
+      "src": "/favicon\\.png",
       "dest": "/favicon.png"
     },
     {
