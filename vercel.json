@@ -3,6 +3,14 @@
     {
       "src": "api/index.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "favicon.png",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -17,10 +25,6 @@
     {
       "src": "/favicon\\.png",
       "dest": "/favicon.png"
-    },
-    {
-      "src": "/",
-      "dest": "/index.html"
     },
     {
       "src": "/(.*)",
